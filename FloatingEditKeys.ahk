@@ -235,7 +235,7 @@ MoveWidgetNearCursor() {
 
     x := Clamp(x, L + margin, R - widgetW - margin)
     y := Clamp(y, T + margin, B - widgetH - margin)
-    gui1.Show("x" x " y" y " w" W " h" H)
+    gui1.Show("NA x" x " y" y " w" W " h" H)
     KeepWidgetOnTop()
     SetTimer(HideWidget, 0)
     SetTimer(HideWidget, -10000)
